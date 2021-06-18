@@ -1,0 +1,76 @@
+.auth {
+  padding-top: 40px;
+  width: 100%;
+  align-items: center;
+  margin: 5%;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.hero > h1 {
+  padding-bottom: 0%;
+  padding: 20px 0;
+  width: 40%;
+  font-size: 50px;
+  font-weight: 300;
+  color: rgb(154, 130, 177);
+}
+
+.hero > img {
+  z-index: -1;
+  width: 700px;
+  position: abolute;
+  border-radius: 50px;
+}
+
+.hero_button {
+  border-radius: 10px;
+  width: 250px;
+  background-color: rgb(154, 130, 177);
+  color: white;
+  box-shadow: transparent;
+  border: none;
+  margin-top: -350px;
+  height: 50px;
+  font-size: x-large;
+  padding: 10px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .auth {
+    margin: 10px;
+    min-height: 0px;
+    text-align: center;
+  }
+  .hero {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .hero_title {
+    text-align: center;
+    font-size: 60px;
+    width: 100% !important;
+    justify-self: start;
+    text-align: start;
+  }
+  .hero_image {
+    top: 230px;
+    max-width: 90%;
+    position: initial;
+    height: initial;
+  }
+  .hero_button {
+    margin-top: 30px !important;
+    margin-left: 5px !important;
+    padding-left: 0px !important;
+    width: 80%;
+  }
+}
